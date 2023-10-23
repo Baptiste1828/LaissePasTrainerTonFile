@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body ul li {
+    color: red;
+    font-size: 3rem;
+}
+
+body form {
+    background-color: yellow;
+    border-radius: 5%;
+    border-color: black;
+    border-width: 5px;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body form div {
+    margin: 1rem 0 1rem 0;
+}
+
+body form button {
+    background-color: blue;
+    color: yellow;
+    font-size: 2rem;
+    border-color: black;
+    border-width: 5px;
+    margin: 3rem 0 3rem 0;
+}
+
+body form button:hover {
+    background-color: yellow;
+    color: blue;
+}

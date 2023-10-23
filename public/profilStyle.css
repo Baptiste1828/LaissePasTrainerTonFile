@@ -1,0 +1,48 @@
+body div {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    background-color: yellow;
+    border-color: blue;
+    border-width: 5px;
+    border-radius: 7%;
+    margin: 3rem 3rem 0 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body div img {
+    grid-column: 1 / 2;
+    grid-row: 1 / 4;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 5rem;
+}
+
+body div h1 {
+    grid-column: 2/ 3;
+    grid-row: 2 / 3;
+    margin-left: 2rem;
+    font-size: 5rem;
+}
+
+body div h1#title {
+    grid-row: 1 / 2;
+    color: blue;
+    text-decoration: underline;
+}
+
+body div h2 {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+    margin-left: 2rem;
+    font-size: 4rem;
+}
+
+body a {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 3rem;
+    color: red;
+    margin: 3rem auto 3rem auto;
+}
